@@ -240,6 +240,8 @@ body {
 
 .research-visual { min-height: 28rem; overflow: hidden; background: #dfe7df; }
 .research-visual img { width: 100%; height: 100%; object-fit: cover; }
+.research-visual--contain { display: grid; place-items: center; background: #fff; }
+.research-visual--contain img { height: auto; max-height: none; object-fit: contain; padding: clamp(0.75rem, 2vw, 1.4rem); }
 
 .research-copy {
   display: flex;
@@ -274,6 +276,23 @@ body {
   font-size: 0.86rem;
   font-weight: 650;
 }
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: fit-content;
+  margin-top: 1.1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid $academic-green;
+  color: $academic-green !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 750;
+  text-decoration: none !important;
+}
+
+.project-link:hover { gap: 0.8rem; }
 
 .research-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
 .research-card { overflow: hidden; border: 1px solid $academic-line; background: #fffdf8; }

@@ -61,8 +61,8 @@ redirect_from:
     </div>
 
     <article class="research-feature research-feature--lead">
-      <div class="research-visual">
-        <img src="{{ site.baseurl }}/images/research/robotic-manipulation.png" alt="Experimental setup for a vision-guided rice roguing robot and its iris gripper">
+      <div class="research-visual research-visual--contain">
+        <img src="{{ site.baseurl }}/images/projects/rice-roguing/fig01-robot-platform.png" alt="Complete views of the high-clearance hybrid-rice roguing robot">
       </div>
       <div class="research-copy">
         <p class="project-index">01 · Robotics and mechanism design</p>
@@ -73,7 +73,8 @@ redirect_from:
           <div><dt>400</dt><dd>field trials</dd></div>
           <div><dt>331 N</dt><dd>mean peak force</dd></div>
         </dl>
-        <p class="project-meta">First-author research · Manuscript under revision</p>
+        <p class="project-meta">First-author research · Revised manuscript submitted</p>
+        <a class="project-link" href="{{ site.baseurl }}/projects/rice-roguing/">Explore the full project <span aria-hidden="true">&rarr;</span></a>
       </div>
     </article>
 
