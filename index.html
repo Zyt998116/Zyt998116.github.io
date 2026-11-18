@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yingtong Zhou / 周映彤 — Academic Homepage</title>
+  <meta name="description" content="Yingtong Zhou, undergraduate researcher at Zhejiang University working on 3D perception, robotic manipulation, and mechanism design.">
+  <meta name="author" content="Yingtong Zhou">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yingtong Zhou / 周映彤 — Academic Homepage">
+  <meta property="og:description" content="Research in 3D perception, robotic manipulation, and mechanism design at Zhejiang University.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <script src="assets/navigation.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="greedy-nav" aria-label="Academic navigation">
+          <button type="button" class="hidden" aria-label="More navigation links" aria-expanded="false" aria-controls="more-links"><span class="navicon"></span></button>
+          <ul class="visible-links">
+            <li class="masthead__menu-item masthead__menu-item--lg"><a href="#about-me">Yingtong Zhou</a></li>
+            <li class="masthead__menu-item"><a href="#about-me">About Me</a></li>
+            <li class="masthead__menu-item"><a href="#research-interests">Research</a></li>
+            <li class="masthead__menu-item"><a href="#selected-projects">Projects</a></li>
+            <li class="masthead__menu-item"><a href="#publications">Publications</a></li>
+            <li class="masthead__menu-item"><a href="#education">Education</a></li>
+            <li class="masthead__menu-item"><a href="#experience">Experience</a></li>
+            <li class="masthead__menu-item"><a href="#awards">Honors &amp; Awards</a></li>
+          </ul>
+          <ul id="more-links" class="hidden-links hidden"></ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <aside class="sidebar sticky" aria-label="Profile and contact">
+      <div class="profile_box">
+        <div class="author__avatar">
+          <div class="portrait-crop">
+            <img src="assets/images/yingtong-zhou-portrait.jpg" alt="Portrait of Yingtong Zhou" width="1438" height="960" fetchpriority="high">
+          </div>
+        </div>
+        <div class="author__content">
+          <h2 class="author__name">Yingtong Zhou<span lang="zh-CN">周映彤</span></h2>
+          <p class="author__bio">Zhejiang University</p>
+          <p class="author__affiliation">Chu Kochen Honors College</p>
+          <p class="author__location"><span aria-hidden="true">📍</span> Hangzhou, China</p>
+          <p class="author__github"><a href="https://github.com/zyt998116"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></p>
+          <p class="author__github"><a href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></p>
+          <p class="author__email"><a href="mailto:3230102433@zju.edu.cn"><i class="fas fa-envelope" aria-hidden="true"></i> 3230102433@zju.edu.cn</a></p>
+        </div>
+      </div>
+    </aside>
+
+    <article class="page">
+      <div class="page__inner-wrap">
+        <div class="page__content">
+          <h1 id="about-me" class="section-heading"><span class="section-marker" aria-hidden="true">👋</span> About Me</h1>
+          <p>I am <strong>Yingtong Zhou (<span lang="zh-CN">周映彤</span>)</strong>, an undergraduate at Zhejiang University pursuing a B.Eng. in Biosystems Engineering alongside studies in Public Administration at Chu Kochen Honors College.</p>
+          <p>My research focuses on how robots can infer 3D structure from incomplete observations and use that information to interact reliably with objects in unstructured environments. I work on multimodal 3D reconstruction, vision-guided manipulation, and underactuated mechanisms.</p>
+
+          <h2 id="research-interests" class="section-heading"><span class="section-marker" aria-hidden="true">🔬</span> Research Interests</h2>
+          <ul>
+            <li>3D Perception · Geometric Reasoning · Multimodal Reconstruction</li>
+            <li>Robotic Manipulation · Mechanism Design</li>
+            <li>Robust Physical Interaction · Robot Learning in Unstructured Environments</li>
+          </ul>
+
+          <h2 id="selected-projects" class="section-heading"><span class="section-marker" aria-hidden="true">💻</span> Projects</h2>
+          <article class="research-project">
+            <h3 class="research-project__title">Vision-Guided Robotic Manipulation with a Single-Motor, Underactuated End-Effector</h3>
+            <p class="research-project__description">I co-developed a six-blade iris gripper that uses contact resistance to switch mechanically from self-centering grasping to rotary-vibration extraction. A DetCo-based detector and probabilistic RGB-D elevation mapping estimate a 3D target for an XYZ gantry; the iris accommodates residual positioning error.</p>
+            <p class="research-project__description">In a randomized 120-trial comparison, vibration reduced mean peak extraction force from 392 N to 331 N. The system achieved 94.5% success across 400 field trials.</p>
+            <p class="research-project__status"><span>Role</span> First-author research · Oct 2024–present · Advisors: Dr. Huaiqu Feng and Prof. Yongwei Wang</p>
+          </article>
+          <article class="research-project">
+            <h3 class="research-project__title">Multimodal 3D Reconstruction, Point-Cloud Segmentation, and Geometric Understanding</h3>
+            <p class="research-project__description">I led a project that combined multi-view NeRF reconstruction with RGB, depth, and spectral observations to recover partially occluded plant structures over time. I worked on point-cloud processing, Transformer-based organ segmentation, and skeleton extraction.</p>
+            <p class="research-project__description">The project achieved 34.5 dB PSNR in reconstruction, 0.93 organ-instance mIoU, and R² &gt; 0.95 for plant height and leaf area estimates.</p>
+            <p class="research-project__status"><span>Role</span> Project leader, National Undergraduate Research Training Program · 2025–2026 · Outstanding Completion</p>
+            <p class="research-project__status"><span>Advisors</span> Dr. Ziyue Guo and Prof. Haiyan Cen</p>
+          </article>
+
+          <h2 id="publications" class="section-heading"><span class="section-marker" aria-hidden="true">📄</span> Publications &amp; Patent</h2>
+          <article class="research-project publication-with-figure">
+            <a class="publication-figure" href="assets/images/closed-loop-agents.png">
+              <img src="assets/images/closed-loop-agents.png" alt="Closed-loop AI agent architecture for livestock farming, showing perception, decision-making, tool use, and farm feedback" width="448" height="304" loading="lazy">
+            </a>
+            <div>
+              <h3 class="research-project__title"><a href="https://doi.org/10.3389/fvets.2026.1968632">Closed-loop artificial intelligence agents for animal epidemic prediction and decision support in livestock farming: a review</a></h3>
+              <p class="research-project__description">Yuzhi Wang, <strong>Yingtong Zhou</strong>, Liyu Li, Huiling Xu, Wangze Ni, and Xiaoliang Li</p>
+              <p class="research-project__status"><span>Published review</span> <em>Frontiers in Veterinary Science</em>, 13:1968632 · 2026</p>
+            </div>
+          </article>
+          <article class="research-project publication-with-figure">
+            <a class="publication-figure" href="assets/images/hybrid-rice-roguing.png">
+              <img src="assets/images/hybrid-rice-roguing.png" alt="Assembled hybrid-rice roguing end-effector with detail views of its transmission and six-blade iris gripper" width="424" height="315" loading="lazy">
+            </a>
+            <div>
+              <h3 class="research-project__title">An intelligent hybrid-rice roguing system combining cross-modal perception with a mechanically triggered rotary-vibration end-effector</h3>
+              <p class="research-project__description"><strong>Yingtong Zhou</strong>, Shuqi Zheng, Chaoyue Yang, Yan Zhu, Huaiqu Feng, and Yongwei Wang</p>
+              <p class="research-project__status"><span>Revised manuscript submitted</span> <em>Computers and Electronics in Agriculture</em> · 2026</p>
+            </div>
+          </article>
+          <article class="research-project">
+            <h3 class="research-project__title">Conceptual design of a 3-DOF underactuated dual gripper for rice purification</h3>
+            <p class="research-project__description">Nian Li, Xiyu Zhou, Huaiqu Feng, Yifei Wang, <strong>Yingtong Zhou</strong>, and Yongwei Wang</p>
+            <p class="research-project__status"><span>Conference paper</span> ASABE Annual International Meeting, Paper 237 · 2025</p>
+          </article>
+          <article class="research-project">
+            <h3 class="research-project__title">Intelligent research on hybrid rice: focusing on the exploration and discovery of key datasets</h3>
+            <p class="research-project__description">Nian Li, Huaiqu Feng, Yifei Wang, <strong>Yingtong Zhou</strong>, and Yongwei Wang</p>
+            <p class="research-project__status"><span>Conference paper</span> ASABE Annual International Meeting, Paper 226 · 2025</p>
+          </article>
+          <article class="research-project">
+            <h3 class="research-project__title">An iris-enveloping rotary-vibration roguing device and method</h3>
+            <p class="research-project__description">Shuqi Zheng, <strong>Yingtong Zhou</strong>, Yan Zhu, and Yongwei Wang</p>
+            <p class="research-project__status"><span>Patent application pending</span> Chinese invention patent application No. 202611163903.0 · 2026</p>
+          </article>
+
+          <h2 id="education" class="section-heading"><span class="section-marker" aria-hidden="true">🎓</span> Education</h2>
+          <p><strong>Zhejiang University</strong><br>
+            B.Eng. in Biosystems Engineering · College of Biosystems Engineering and Food Science<br>
+            Public Administration · Chu Kochen Honors College<br>
+            Hangzhou, China · Sep 2023–present · GPA: 3.65/4.00</p>
+          <p><strong>Wageningen University &amp; Research</strong><br>
+            Summer Research in Bioengineering · Exchange Student · Excellent Participant Award<br>
+            The Netherlands · Jul–Aug 2025</p>
+
+          <h2 id="experience" class="section-heading"><span class="section-marker" aria-hidden="true">🛠️</span> Industry &amp; Robotics Experience</h2>
+          <article class="research-project">
+            <h3 class="research-project__title">DexRobot Co., Ltd. — Robotics Intern</h3>
+            <p class="research-project__description">Tested dexterous-hand ball grasping sequences and documented a RoboCup demonstration. Designed a simulation study for robust grasping using Isaac Gym, PPO, and domain randomization of object mass and friction.</p>
+            <p class="research-project__status">Aug–Sep 2026</p>
+          </article>
+          <article class="research-project">
+            <h3 class="research-project__title">MGB Endoskopische Geräte GmbH — R&amp;D Intern</h3>
+            <p class="research-project__description">Supported real-time white-light and near-infrared image fusion and spatiotemporal enhancement for endoscopic visualization.</p>
+            <p class="research-project__status">Berlin · Jan–Feb 2026</p>
+          </article>
+          <article class="research-project">
+            <h3 class="research-project__title">Guangxi Paiyangshan Forest Centre — R&amp;D Intern</h3>
+            <p class="research-project__description">Evaluated lightweight recognition networks (MobileNet and ShuffleNet) and a mobile interface for edge deployment.</p>
+            <p class="research-project__status">Aug–Sep 2025</p>
+          </article>
+          <article class="research-project">
+            <h3 class="research-project__title">Hangzhou Shanzhu Robotics Co., Ltd. — Algorithms Intern</h3>
+            <p class="research-project__description">Contributed probabilistic elevation maps and 3D profiles to support visual localization and ground-vehicle path planning in field robotics.</p>
+            <p class="research-project__status">Jun–Sep 2024</p>
+          </article>
+
+          <h2 id="awards" class="section-heading"><span class="section-marker" aria-hidden="true">🏆</span> Honors &amp; Awards</h2>
+          <ul>
+            <li><strong>National First Prize</strong>, 15th “Challenge Cup” China College Students’ Entrepreneurship Competition · Core Project Leader</li>
+            <li><strong>National First Prize</strong>, China Collegiate Intelligent Robotics Competition · Team Leader</li>
+            <li><strong>National Second Prize</strong>, iCAN Student Innovation and Entrepreneurship Competition · Future Robotics Entrepreneurship Challenge, 2025</li>
+            <li><strong>First Prize</strong>, Guangdong–Hong Kong–Macao Greater Bay Area College Students Entrepreneurship Competition</li>
+            <li><strong>Third Prize</strong>, Beijing College Students Innovation and Entrepreneurship Competition</li>
+            <li><strong>Third-Class Scholarship</strong>, Zhejiang University</li>
+            <li><strong>Outstanding Student Leader</strong>, Zhejiang University; Exemplary Student Awards in Academic Progress, Innovation &amp; Entrepreneurship, Community Service, and Labor Practice</li>
+          </ul>
+
+          <h2 id="activities" class="section-heading"><span class="section-marker" aria-hidden="true">🤝</span> Leadership &amp; Activities</h2>
+          <ul>
+            <li><strong>President, Innovation and Entrepreneurship Association</strong> — Organized introductory entrepreneurship workshops.</li>
+            <li><strong>Volunteer Teacher</strong> — Designed hands-on microcontroller and LED activities for pupils in underserved communities.</li>
+            <li><strong>Outstanding Individual for Social Practice (2025)</strong> — Authored a Xinhua Net feature with over one million views.</li>
+          </ul>
+
+          <h2 id="skills" class="section-heading"><span class="section-marker" aria-hidden="true">⚙️</span> Technical Skills</h2>
+          <ul>
+            <li><strong>3D Perception &amp; Learning:</strong> Python, PyTorch, NeRF, COLMAP, point-cloud processing, RGB-D and multispectral fusion, self-supervised learning</li>
+            <li><strong>Robotics &amp; Mechanisms:</strong> ROS, SolidWorks, underactuated grippers, planetary transmissions, kinematic and force analysis, simulation study design with Isaac Gym and PPO</li>
+            <li><strong>Programming &amp; Systems:</strong> C++, MATLAB, C, Git, CUDA, Arduino, Raspberry Pi, Altium Designer</li>
+          </ul>
+
+          <footer class="template-credit">© 2026 Yingtong Zhou · Powered by <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a> · <a href="license.txt">MIT License</a></footer>
+        </div>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

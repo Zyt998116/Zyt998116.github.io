@@ -1,0 +1,81 @@
+/* Extend the reference theme with section headings and a crop for this portrait. */
+.sidebar .author__name {
+  margin-bottom: 0;
+}
+
+.author__avatar .portrait-crop img {
+  position: static;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 42% 50%;
+}
+
+.page__content > .section-heading {
+  margin: 1.8em 0 .5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #f2f3f3;
+  font-size: 1.4em;
+  scroll-margin-top: 5rem;
+}
+
+.page__content > #about-me.section-heading {
+  margin-top: 0;
+}
+
+.page__content > #about-me.section-heading::before {
+  content: none;
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greedy-nav .visible-links li {
+  display: block;
+  white-space: nowrap;
+}
+
+.greedy-nav.nav-ready .visible-links {
+  flex-wrap: nowrap;
+}
+
+.greedy-nav button {
+  width: 2.875rem;
+  z-index: 1;
+}
+
+.greedy-nav .navicon {
+  display: block;
+}
+
+.greedy-nav .hidden-links {
+  min-width: 10rem;
+}
+
+.publication-with-figure {
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+}
+
+.publication-figure {
+  display: block;
+  max-width: 17rem;
+  border: 1px solid #f2f3f3;
+  padding: .25rem;
+}
+
+.publication-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 48em) {
+  .publication-with-figure {
+    grid-template-columns: minmax(0, 26%) minmax(0, 1fr);
+    column-gap: 1.5rem;
+  }
+}
